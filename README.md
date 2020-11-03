@@ -1,4 +1,6 @@
-# [**Atividade 3, disciplina linguagens de script**](https://ewertonmac.github.io/atividadelingscript/)
+<div align="center"><img src="https://cdn.svgporn.com/logos/javascript.svg" alt="Javascript Logo" width="20%" ></div>
+
+<h1 align= "center"> <a href="https://ewertonmac.github.io/atividadelingscript/">Atividade 3, disciplina linguagens de script</a></h1>
 #### A atividade teve como objetivo a manipulação de objetos na árvore DOM e Eventos Javascript.
 
 
