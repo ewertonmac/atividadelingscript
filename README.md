@@ -6,7 +6,7 @@
 
 
 * **Questão 1:**<br>
-Através do uma função JS, é gerado um botão. Quando clicado, uma ```<div></div>``` de 100x100 pixels, com cor de fundo vermelha  é criada e a adiciona na árvore DOM.
+Através de uma função JS, é gerado um botão. Quando clicado, uma ```<div></div>``` de 100x100 pixels, com cor de fundo vermelha  é criada e a adiciona na árvore DOM.
 
 
 * **Questão 2:**<br>
