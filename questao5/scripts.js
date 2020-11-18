@@ -1,13 +1,13 @@
 // faça seu código neste arquivo
 //Botões
 let btnJS = document.querySelector("#curso-online-javascript-programando-na-linguagem-web")
-btnJS.onclick = loadIframeJS
+btnJS.onclick = loadIframe
 
 let btnFlutter = document.querySelector("#curso-online-flutter-gerenciamento-estados-provider")
-btnFlutter.onclick = loadIframeFlutter
+btnFlutter.onclick = loadIframe
 
 let btnReact = document.querySelector("#curso-online-react-native-function-components")
-btnReact.onclick = loadIframeReactNative
+btnReact.onclick = loadIframe
 
 //Botões modal
 let maxBtn = document.querySelector('.maximize-modal')
@@ -27,7 +27,7 @@ function closeModal(){
     modalOverlay.setAttribute('class', 'modal-overlay')  
 
     let modal = document.querySelector('.modal.maximize')
-    if(!!modal){
+    if(modal){
         modal.setAttribute('class', 'modal')
     }
 
@@ -49,7 +49,7 @@ function maximizeModal(){
     }
 }
 
-/* carregando Iframe e */
+/*Oparações com Iframe*/
 function setIframe(id){
     let url = "https://www.alura.com.br/"
     const iframe = document.querySelector('iframe')
@@ -57,20 +57,8 @@ function setIframe(id){
     iframe.setAttribute('src', url)
 }
 
-function loadIframeJS(){
-    let id = btnJS.getAttribute('id')
-    setIframe(id)
-    showModal()
-}
-
-function loadIframeFlutter(){
-    let id = btnFlutter.getAttribute('id')
-    setIframe(id)
-    showModal()    
-}
-
-function loadIframeReactNative(){
-    let id = btnReact.getAttribute('id')
+function loadIframe(){
+    let id = this.getAttribute('id')
     setIframe(id)
     showModal()
 }
